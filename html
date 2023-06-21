@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  
+
+  <!-- HTML -->
+
+  
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans">
+
+ 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom Styles -->
+
+  <link rel="stylesheet" href="style.css">
+
+  <style type="text/css" media="all">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+ *{box-sizing:border-box;
+
+  margin:0;
+
+  padding:0;
+
+  font-family: 'popins' sans-serif;
+
+  font-weight: 300;
+
+}
+
+body{
+
+    background:#f1f1f1; 
+
+   padding :20px ;
+
+  display:-webkit-flex;
+
+    display:flex;
+
+    justify-content: center;
+
+    align-items :center ;
+
+    min-height : 100vh ; 
+
+    word-wrap: break-word;
+
+}
+
+.container{
+
+  background :white;
+
+  display:-webkit-flex;
+
+    display:flex;
+
+    padding:5px;
+
+    /*box-shadow:0 35px 35px rgba(0,0,00.1);*/
+
+}
+
+h2{
+
+  text-transform: uppercase;
+
+  font-size: 1.3em;
+
+}
+
+.text_name {
+
+  text-transform:uppercase;
+
+  text-align: center;
+
+  font-size:13px;
+
+}
+
+.text_name h1{ 
+
+  font-size:1.7em;
+
+} 
+
+.fa {color:#fddd04;}
+
+hr{background:#fddd04;
+
+}
+
+.left p{
+
+  font-size:0.9em;
+
+}
+
+.left{
+
+  padding :10px;
+
+  color:white;
+
+  background :#A5040A;
+
+}
+
+.right{background:white ;
+
+  padding: 10px ;
+
+}
+
+img {
+
+  width:200px;
+
+  height:200px;
+
+  border-radius:50%;
+
+  position:relative;
+
+  left:0;
+
+  top:0;
+
+ 
+
+} 
+
+.skills .box{
+
+  display :grid;
+
+  grid-template-columns:150px 1fr;
+
+  justify-content: center ;
+
+  align-items:center;
+
+}
+
+.skills .box .percentage{
+
+  background: #454545;
+
+  height :10px;
+
+  
+
+ 
+
+} 
+
+.skills .box .percentage .level{
+
+  background:#fddd04 ;
+
+  height:100%;
+
+} 
+
+ul.interest{
+
+  list-style-type:none;
+
+  padding:0;
+
+  margin:0;
+
+}
+
+@media screen and (max-width:780px){
+
+.skills .box{grid-template-columns:1fr; }
+
+}
+
+@media screen and (max-width: 424px){ 
+
+.left, .right{width:100%;
+
+  margin:0;
+
+  padding:10px;
+
+}
+
+.container, body{flex-direction:column;
+
+  margin:0;
+
+  padding:0;
+
+}
+
+}  
+
+    
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="left">
+
+      <div class="text_name">
+
+      <img src="/images/1666040755439.png">
+
+      <h1>Owoseni Babatunde Adewole</h1>
+
+      <h2>Web Designer</h2>
+
+      <hr/>
+
+      </div>
+
+      <h2>PERSONAL INFORMATION</h2>
+
+      <p><i class="fa fa-phone"></i> +234-813 150 2358</p>
+
+      <p><I class="fa fa-envelope"></i> tundepagemaker@gmail.com</p>
+
+      <p><i class="fa fa-facebook"></i> facebook.com/TuskyTV</p>
+
+         <p><i class="fa fa-map-marker"></i> Lagos, Nigeria</p>
+
+     <hr/>
+
+  <h2>CERTIFICATES</h2>
+
+     <P>NYSC Certificate</P>
+
+     <P>HND Certificate</P>
+
+     <P>ND Certificate</P>
+
+     <P>MCAN Certificate</P>
+
+     <p>SDG Certificate</p>
+
+     <p>SSCE Certificate</p>
+
+     
+
+ <hr/>
+
+<h2>INTEREST</h2>
+
+    <ul class="interest"> <li>Learning</li>
+
+     <li>Research</li>
+
+     <li>Internet Surfing</li>
+
+     <li>Outdoor Activities</li> 
+
+     </ul>
+
+      
+
+     
+
+    </div>
+
+    <div class="right">
+
+      
+
+      <h2>OBJECTIVES</h2>
+
+      <p>To secure a responsible career opportunity to
+
+fully utilize my training and skills, while making
+
+a significant contribution to the success of the
+
+company.
+
+</p>
+
+<hr/>
+
+<div class="skills">
+
+  <h2> Professional SKILLS</h2>
+
+<div class="box">
+
+  <h3>HTML</h4>
+
+  <div class="percentage">
+
+    <div class="level" style="width: 98%;"></div>
+
+  </div>
+
+</div>
+
+<div class="box">
+
+  <h3>CSS</h4>
+
+  <div class="percentage">
+
+    <div class="level" style="width: 79%;"></div>
+
+  </div>
+
+</div>
+
+<div class="box">
+
+  <h3>JavaScript</h4>
+
+  <div class="percentage">
+
+    <div class="level" style="width: 75%;"></div>
+
+  </div>
+
+</div>
+
+<div class="box">
+
+  <h3>NodeJs</h4>
+
+  <div class="percentage">
+
+    <div class="level" style="width: 80%;"></div>
+
+  </div>
+
+</div>
+
+<div class="box">
+
+  <h3>Php</h4>
+
+  <div class="percentage">
+
+    <div class="level" style="width: 90%;"></div>
+
+  </div>
+
+</div>
+
+</div>
+
+<hr/>
+
+<h2>EXPERIENCE</h2>
+
+  <ul class="experience"><li>Create website for Different brands</li>
+
+    <li>Upload and Download file from Local server</li>
+
+    <li>Managed Social Medias</li>
+
+    
+
+   
+
+        <li>
+
+          Solar Installation and Maintenance
+
+        </li>
+
+        <li>
+
+          Construction of some Elecnic devices like Power Inverter, Automatic Change Over, Christmas light, Notification Alarm etc.
+
+        </li>
+
+        
+
+      <li>Executed Confidential and Non confidential files with computer software</li>
+
+   
+
+ <li>Led my group to successful execution of project - Construction of Gas Level detector using Arduino</li>
+
+  
+
+    <li>I worked as Marketer at Gencon Consultants</li>
+
+     <li>I worked as a class teacher in Dive Treasure and as Physics teacher at Moradeyo Comprehensive School</li>
+
+      <li>I wrote promotional contents for Brands and also content for blog posts.</li>
+
+    </ul>
+
+    <hr/>
+
+   <h2>EDUCATION</h2>
+
+     <h3 class="school">Kwara State Polytechnic</h3>
+
+     <h4>HND - Electronics/Telecommunication Engineering</h4>
+
+     <p>Upper Credit</p>
+
+     <p>2019 - 2021</p>
+
+     
+
+     <h3>Kwara State Polytechnic</h3>
+
+     <h4>ND - Electical/Electronics Engineering</h4>
+
+     <p>Upper Credit</p>
+
+     <p>2016 - 2018</p>
+
+     
+
+     <h3>Chosen Private School</h3>
+
+     <h4>Senior Secondary School Certificate</h4>
+
+     <p>Excellent</p>
+
+     <p>2006 - 2012</p>
+
+     
+
+    
+
+    
+
+  </div>
+
+  <!-- Project -->
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
